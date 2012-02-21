@@ -13,10 +13,10 @@ Browser Version And OS Version Detection Plugin
 This Plugin offers a number of wrapper functions for these two great external libraries:
 
 
-	 Chris Schuld's Browser Class var 
+	 Chris Schuld's Browser Class 
 	 (http://chrisschuld.com/) 
 	 
-	 Harald Hope's Full Featured PHP Browser/OS detection var
+	 Harald Hope's Full Featured PHP Browser/OS detection
 	 (http://techpatterns.com/downloads/php_browser_detection.php
 
 
