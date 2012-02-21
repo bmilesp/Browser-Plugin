@@ -1,4 +1,4 @@
-# CakePHP Browser Helper
+# CakePHP Browser Helper Plugin
 
 Browser Version And OS Version Detection Plugin
 
