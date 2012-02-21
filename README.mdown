@@ -34,7 +34,5 @@ lists of OS's and Browsers can be found in the library classes' comments.
 
 ## Versions
 
-DebugKit has several versions, they are compatible with different release of CakePHP.
-
 1.3` are compatible with CakePHP 1.3.x. could probably easily be converted to 2.0 if naming conventions are applied.
 
