@@ -21,8 +21,11 @@ This Plugin offers a number of wrapper functions for these two great external li
 
 
 The method $browser->checkBrowserVersionPlatform() is a combination of the libraries' methods into one to give the ability to narrow down to a specific browser, browser version, os, and os version.
-Will return true if the browser matches the set params. The browser version is a max check, so any version earlier will also pass. If you just use
-checkBrowserVersionPlatform(), it will default to check for Windows XP IE 7.0 or lower, true if it matches, false if not.
+Will return true if the browser matches the given arguments. The browser version is a max check, so any version earlier than $maxVersionToCheck will also pass. If you just use
+checkBrowserVersionPlatform(), it will default to check for Windows XP IE 7.0 or lower, true if it matches, false if not:
+
+     $browser->checkBrowserVersionPlatform() //defaults are equal to:
+     $browser->checkBrowserVersionPlatform(7, 'Internet Explorer', 'Windows', 'XP');  
 
 details of passed checkBrowserVersionPlatform() vars are here, more detailed comments can be found in the Helper itself:
 
