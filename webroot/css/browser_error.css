@@ -1,0 +1,19 @@
+
+.browser-error-explanation-wrapper{
+	border: solid 1px #C00;
+	margin: 40px;
+	padding: 30px;
+	font-family: Arial, Helvetica, sans-serif
+}
+
+.browser-error-explanation-title{
+	font-weight: bold;
+	color: #C00;
+	font-size: 24px;
+	padding: 20px;
+}
+
+.browser-error-explanation{
+	font-weight:bold;
+	padding: 10px 0;
+}

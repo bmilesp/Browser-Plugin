@@ -1,0 +1,40 @@
+# CakePHP Browser Helper
+
+Browser Version And OS Version Detection Plugin
+
+## Installation
+
+* Clone/Copy the files in this directory into `app/plugins/browser_version`
+* Include the Browser Helper in your controller:
+   * `var $helpers = array('Browser.Browser');`
+
+## Documentation
+
+This Plugin offers a number of wrapper functions for these two great external libraries:
+
+
+The method $browser->checkBrowserVersionPlatform() is a combination of the libraries' methods into one to give the ability to narrow down to a specific browser, browser version, os, and os version.
+Will return true if the browser matches the set params. The browser version is a max check, so any version earlier will also pass. If you just use
+checkBrowserVersionPlatform(), it will default to check for Windows XP IE 7.0 or lower, true if it matches, false if not.
+
+details of passed checkBrowserVersionPlatform() vars are here, more detailed comments can be found in the Helper itself:
+
+	 $maxVersionToCheck set a maximum version number (eg 7.0) 
+	 $browserToCheck default is Internet Explorer
+	 $platformToCheck  default is Windows
+	 $OSVersion default is XP, set to null to not check version
+
+
+Example useage without defaults, returns true if match, false otherwise:
+$browser->checkBrowserVersionPlatform(9, 'Internet Explorer', 'Windows', 'Vista'); 
+
+Also comes with a handy Warning message element catered to users running Windows XP and IE 7.
+
+lists of OS's and Browsers can be found in the library classes' comments.
+
+## Versions
+
+DebugKit has several versions, they are compatible with different release of CakePHP.
+
+1.3` are compatible with CakePHP 1.3.x. could probably easily be converted to 2.0 if naming conventions are applied.
+
