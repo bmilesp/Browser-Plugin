@@ -5,7 +5,7 @@
 	</div>
 	<div class='browser-error-explanation'>
 		Your Browser has been Detected as Internet Explorer 7, 
-		which is no longer compatable With modern SSL Secure Sites.
+		which is no longer compatible with modern SSL Secure Sites.
 		You may continue to purchase products and checkout with full confidence that this is a secure site, 
 		but since your Web Browser is obsolete to modern SSL Security Standards, you will see a security warning. 
 		<br><br>
